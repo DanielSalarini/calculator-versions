@@ -1,0 +1,30 @@
+.button {
+    font-size: 1.4em;
+
+    border: none;
+    border-bottom: solid 1px #888 ;
+    border-right: solid 1px #888;
+
+    outline: none;
+}
+
+.button:active {
+    background-color: #ccc;
+}
+
+.operation {
+    background-color: #fa8231;
+    color: #fff;
+}
+
+.operation:active {
+    background-color: #fa823166;
+}
+
+.double-space{
+    grid-column: span 2;
+}
+
+.triple-space {
+    grid-column: span 3;
+}
