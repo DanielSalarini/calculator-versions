@@ -28,3 +28,12 @@
 .triple-space {
     grid-column: span 3;
 }
+
+.signal {
+    background-color: #658BF6;
+    color: #fff;
+}
+
+.signal:active {
+    background-color: #658BF666
+}

@@ -8,6 +8,7 @@ export default props =>
     ${props.operation ? 'operation' : ''}    
     ${props.double ? 'double-space' : ''}
     ${props.triple ? 'triple-space' : ''} 
+    ${props.signal ? 'signal' : ''} 
 `}>
-        {props.label}
+    {props.label}
 </button>

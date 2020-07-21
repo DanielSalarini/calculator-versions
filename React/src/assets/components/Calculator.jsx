@@ -10,7 +10,8 @@ export default class Calculator extends Component {
         return (
             <div className="calculator">
                 <Display value="100" />
-                <Button label="AC" triple />
+                <Button label="AC" double signal />
+                <Button label="+/-" signal />
                 <Button label="/" operation />
                 <Button label="7" />
                 <Button label="8" />
@@ -24,8 +25,7 @@ export default class Calculator extends Component {
                 <Button label="2" />
                 <Button label="3" />
                 <Button label="+" operation />
-                <Button label="0" double />
-                <Button label="." />
+                <Button label="0" triple />
                 <Button label="=" operation />
             </div>
         )
